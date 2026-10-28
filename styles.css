@@ -1,1 +1,59 @@
-/*  your css code here. If applicable */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.page {
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #cbd6cc;
+    padding: 10px;
+}
+
+.imageContainer {
+    margin-bottom: 15px;
+}
+
+.imageContainer img {
+    width: 450px;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+td {
+    border: 1px solid #999;
+    padding: 8px;
+    vertical-align: top;
+    overflow-wrap: break-word;
+}
+
+td:first-child,
+td:last-child {
+    width: 200px;
+}
+
+td:nth-child(2) {
+    width: 600px;
+    text-align: center;
+}
+
+td img {
+    max-width: 100%;
+    height: auto;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-top: 5px;
+}
